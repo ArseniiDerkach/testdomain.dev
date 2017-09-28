@@ -38,3 +38,6 @@
 .widget .product_list_widget li a.remove {
 	float: left;
 }
+.woocommerce ul.products li.product h3:after {
+	content: "\200E‎";
+}

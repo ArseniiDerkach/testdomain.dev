@@ -44,7 +44,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 18.0 SVGs Fallbacks
 19.0 Media Queries
 20.0 Print
-21.0 Custom Styles for Woocommerce
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -2365,44 +2364,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	height: 0;
 	width: 100%;
 }
-.contact-us>div {
-	margin-bottom: 1em;
-}
-.contact-us .mobile-only {
-	display: block;
-}
-.contact-us .desktop-only {
-	display: none;
-}
-.contact-us .btn-contact,
-.contact-us .mobile-only a {
-	display: block;
-	background-color: #222;
-	padding: 10px;
-	color: #fff;
-	text-align: center;
-}
-.contact-us .contact-popup {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	width: 500px;
-	background-color: #bcbcbc;
-	transform: translate(-50%,-50%);
-	display: none;
-}
-.contact-us .contact-popup.opened {
-	display: block;
-}
-.contact-us .contact-popup .close {
-	font-size: 24px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	line-height: 15px;
-	margin: 5px;
-	cursor: pointer;
-}
+
 
 /*--------------------------------------------------------------
 14.0 Comments
@@ -3998,18 +3960,6 @@ object {
 		padding: 0.7em 0 0;
 		width: 58%;
 	}
-	.contact-us {
-		float: right;
-	}
-	.contact-us .mobile-only {
-		display: none;
-	}
-	.contact-us .desktop-only {
-		display: block;
-	}
-	.contact-us .btn-contact {
-		display: inline-block;
-	}
 	.social-navigation + .site-info {
 		margin-left: 6%;
 	}
@@ -4282,12 +4232,4 @@ object {
 	.site-footer {
 		padding: 0;
 	}
-}
-
-/*--------------------------------------------------------------
-21.0 Custom styles for Woocommerce
---------------------------------------------------------------*/
-
-.cart {
-	margin-bottom: 10px;
 }
